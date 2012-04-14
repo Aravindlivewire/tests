@@ -1,0 +1,16 @@
+A python script to rename more than one files in a directory.
+
+Usage : python rename.py <path> <new_name.extension>
+
+This script renames the files present in the directory given by <path> and places the renamed files in a directory called "pic_folder" that will be created within <path>.
+
+Example : Python rename.py /home/haris/pictures/tour/ tour.jpg
+
+Output : tour1.jpg, tour2.jpg, etc.
+
+FIXME
+-----
+
+I could not find a way to rename the files by keeping it within the existing directory itself. That is why I'm creating a new folder and moving the files to there. I'm working on it.
+
+Thank you!
